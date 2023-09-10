@@ -1,6 +1,6 @@
-module github.com/spf13/viper
+module github.com/spikepanx/viper
 
-go 1.18
+go 1.21
 
 require (
 	github.com/fsnotify/fsnotify v1.6.0
@@ -13,6 +13,7 @@ require (
 	github.com/spf13/cast v1.5.1
 	github.com/spf13/jwalterweatherman v1.1.0
 	github.com/spf13/pflag v1.0.5
+	github.com/spf13/viper v1.16.0
 	github.com/stretchr/testify v1.8.4
 	github.com/subosito/gotenv v1.6.0
 	gopkg.in/ini.v1 v1.67.0
@@ -52,7 +53,7 @@ require (
 	github.com/mitchellh/go-homedir v1.1.0 // indirect
 	github.com/modern-go/concurrent v0.0.0-20180306012644-bacd9c7ef1dd // indirect
 	github.com/modern-go/reflect2 v1.0.2 // indirect
-	github.com/nats-io/jwt/v2 v2.4.1 // indirect
+	github.com/nats-io/jwt/v2 v2.5.0 // indirect
 	github.com/nats-io/nats.go v1.28.0 // indirect
 	github.com/nats-io/nkeys v0.4.4 // indirect
 	github.com/nats-io/nuid v1.0.1 // indirect
