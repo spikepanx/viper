@@ -39,14 +39,14 @@ import (
 	"github.com/spf13/cast"
 	"github.com/spf13/pflag"
 
-	"viper/internal/encoding"
-	"viper/internal/encoding/dotenv"
-	"viper/internal/encoding/hcl"
-	"viper/internal/encoding/ini"
-	"viper/internal/encoding/javaproperties"
-	"viper/internal/encoding/json"
-	"viper/internal/encoding/toml"
-	"viper/internal/encoding/yaml"
+	"github.com/spikepanx/viper/internal/encoding"
+	"github.com/spikepanx/viper/internal/encoding/dotenv"
+	"github.com/spikepanx/viper/internal/encoding/hcl"
+	"github.com/spikepanx/viper/internal/encoding/ini"
+	"github.com/spikepanx/viper/internal/encoding/javaproperties"
+	"github.com/spikepanx/viper/internal/encoding/json"
+	"github.com/spikepanx/viper/internal/encoding/toml"
+	"github.com/spikepanx/viper/internal/encoding/yaml"
 )
 
 // ConfigMarshalError happens when failing to marshal the configuration.
